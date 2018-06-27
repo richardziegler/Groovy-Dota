@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4e97e81-dec8-4710-ad66-7913334040d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/GetWinRate.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetWinRate.groovy" afterDir="false" />
-    </list>
+    <list default="true" id="d4e97e81-dec8-4710-ad66-7913334040d2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
