@@ -3,13 +3,16 @@ import groovy.json.*
 class GetWinRate {
     static void main(String[] args) {
 
+        def steamAPIKey
+        def openDotaAPIKey
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in))
         print "Please enter your Steam Username:"
         def username = br.readLine()
 
 
         // Convert Steam Username to SteamID 32
-        def usernameToId = new URL("http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=***REMOVED***&vanityurl=${username}").getText()
+        def usernameToId = new URL("http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=${steamAPIKey}&vanityurl=${username}").getText()
         def userSlurper = new JsonSlurper()
         def userToIdJson = userSlurper.parseText(usernameToId)
 
@@ -19,7 +22,7 @@ class GetWinRate {
         steamId -= 61197960265728
 
 
-        def test = new URL("https://api.opendota.com/api/players/${steamId}/wl?api_key=***REMOVED***").getText()
+        def test = new URL("https://api.opendota.com/api/players/${steamId}/wl?api_key=${openDotaAPIKey}").getText()
         def jsonSlurper = new JsonSlurper()
         def object
 
