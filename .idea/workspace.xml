@@ -4,7 +4,6 @@
     <list default="true" id="d4e97e81-dec8-4710-ad66-7913334040d2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Groovy-Dota/GetWinRate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Groovy-Dota/GetWinRate.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="GetWinRate.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetWinRate.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="70" column="72" lean-forward="true" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+            <state relative-caret-position="1035">
+              <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -32,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="310" selection-start-line="1" selection-start-column="310" selection-end-line="1" selection-end-column="310" />
+              <caret line="1" column="270" selection-start-line="1" selection-start-column="270" selection-end-line="1" selection-end-column="270" />
             </state>
           </provider>
         </entry>
@@ -40,7 +39,7 @@
       <file leaf-file-name="dota.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dota.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="2010">
               <caret line="134" column="19" selection-end-line="5297" selection-end-column="1" />
             </state>
           </provider>
@@ -85,7 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,7 +101,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -202,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531715433502</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated README.md">
+      <created>1531783290198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531783290198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -211,7 +217,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -222,7 +227,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -235,6 +240,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -245,7 +251,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Added new functionality to get user profile, recent games played, and list of all heroes. Result additions: Display Name, Last 5 heroes played, and last login." />
     <MESSAGE value="Added conditional in the event last login returns as null from Open Dota." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added conditional in the event last login returns as null from Open Dota." />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -254,6 +261,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/GetWinRate.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dota.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="134" column="19" selection-end-line="5297" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="310" selection-start-line="1" selection-start-column="310" selection-end-line="1" selection-end-column="310" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GetWinRate.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -276,15 +307,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dota.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state relative-caret-position="2010">
           <caret line="134" column="19" selection-end-line="5297" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GetWinRate.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="70" column="72" lean-forward="true" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+        <state relative-caret-position="1035">
+          <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -294,7 +325,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="310" selection-start-line="1" selection-start-column="310" selection-end-line="1" selection-end-column="310" />
+          <caret line="1" column="270" selection-start-line="1" selection-start-column="270" selection-end-line="1" selection-end-column="270" />
         </state>
       </provider>
     </entry>
