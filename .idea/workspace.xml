@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4e97e81-dec8-4710-ad66-7913334040d2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Groovy-Dota.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Groovy-Dota.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Groovy-Dota/GetWinRate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetWinRate.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetWinRate.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Groovy-Dota/GetWinRate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Groovy-Dota/GetWinRate.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetWinRate.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetWinRate.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetWinRate.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="388">
+              <caret line="70" column="72" lean-forward="true" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="310" selection-start-line="1" selection-start-column="310" selection-end-line="1" selection-end-column="310" />
             </state>
           </provider>
         </entry>
@@ -60,6 +71,7 @@
         <option value="$PROJECT_DIR$/src/Example.groovy" />
         <option value="$PROJECT_DIR$/dota.json" />
         <option value="$PROJECT_DIR$/src/GetWinRate.groovy" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -176,6 +188,21 @@
       <option name="presentableId" value="Default" />
       <updated>1529985664076</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added new functionality to get user profile, recent games played, and list of all heroes. Result additions: Display Name, Last 5 heroes played, and last login.">
+      <created>1531714902795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531714902795</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added conditional in the event last login returns as null from Open Dota.">
+      <created>1531715433502</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531715433502</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -195,7 +222,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -213,6 +240,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Added new functionality to get user profile, recent games played, and list of all heroes. Result additions: Display Name, Last 5 heroes played, and last login." />
+    <MESSAGE value="Added conditional in the event last login returns as null from Open Dota." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added conditional in the event last login returns as null from Open Dota." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="4" />
@@ -223,6 +258,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -245,8 +283,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GetWinRate.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        <state relative-caret-position="388">
+          <caret line="70" column="72" lean-forward="true" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="310" selection-start-line="1" selection-start-column="310" selection-end-line="1" selection-end-column="310" />
         </state>
       </provider>
     </entry>
