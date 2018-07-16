@@ -81,7 +81,11 @@ class GetWinRate {
         print "Your 5 most recent heroes played were: "
         print lastFiveHeroesPlayedStr
         println ""
-        println "Last Login: ${playerProfileJson.profile.last_login[0..9]}"
+        if (playerProfileJson.profile.last_login != null) {
+            println "Last Login: ${playerProfileJson.profile.last_login[0..9]}"
+        } else {
+            println "Last Login: Data not available."
+        }
         println "====================================================================================="
 
 
