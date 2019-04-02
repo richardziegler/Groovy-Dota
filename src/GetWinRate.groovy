@@ -4,8 +4,8 @@ import groovy.json.JsonSlurper
 class GetWinRate {
     static void main(String[] args) {
 
-        def steamAPIKey = "***REMOVED***"
-        def openDotaAPIKey = "***REMOVED***"
+        def steamAPIKey = "xxx"
+        def openDotaAPIKey = "xxx"
 
         println "   ___  ____  _________     ___  ___  ____  __________   ____\n" +
                 "  / _ \\/ __ \\/_  __/ _ |   / _ \\/ _ \\/ __ \\/ __/  _/ /  / __/\n" +
